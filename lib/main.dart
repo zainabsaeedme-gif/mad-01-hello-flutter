@@ -1,7 +1,7 @@
 import 'package:material_ui/material_ui.dart';
 
 // TODO 1: Replace 'Your Name' with your own name.
-const String studentName = 'Your Name';
+const String studentName = 'Zainab Saeed';
 
 // TODO 2: Finish this function. It must return:
 //   'Good morning'   when hour is less than 12,
