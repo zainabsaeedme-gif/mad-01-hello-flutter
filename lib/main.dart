@@ -8,7 +8,12 @@ const String studentName = 'Zainab Saeed';
 //   'Good afternoon' when hour is less than 17,
 //   'Good evening'   for every other hour.
 String greetingFor(int hour) {
-  return 'Hello';
+  if (hour < 12) {
+    return 'Good morning';
+  } else if (hour < 17) {
+    return 'Good afternoon';
+  } else {
+    return 'Good evening';
 }
 
 void main() {
